@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #023472;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+h3 .highlight {
+    color: white;
+}
+
+.imgLogo {
+    width: 165px;
+    height: 150px;
+}
+
+form {
+    margin-top: 1px;
+    text-align: center;
+}
+
+input, .btn-submit {
+    margin: 3px 0;
+    padding: 10px;
+    width: calc(60% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.username {
+    font-size: 13px;
+    padding: 10px;
+}
+
+.password {
+    font-size: 13px;
+    padding: 10px;
+}
+
+.btn-submit {
+    padding: 10px;
+    background-color: white;
+    color: #151515;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 54%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-register {
+    display: block; /* Faz com que o link se comporte como um bloco, ocupando toda a largura disponível */
+    margin-top: 5px; /* Espaçamento acima do link */
+    padding: 17px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline; /* Sublinha o link */
+    color: #faf8f8; /* Cor do link */
+    font-weight: bold; /* Negrito */
+    width: 93%; /* Largura do link igual à dos outros botões e inputs */
+    background-color: transparent; 
+}
+
+.btn-register{
+    text-decoration: underline; /* Adiciona sublinhado no hover */
+}
+
+

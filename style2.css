@@ -1,0 +1,77 @@
+
+body {
+    background-color: #023472;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    justify-content: center;
+    text-align: center;
+    background-color: #023472; 
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+
+.logo {
+    width: auto;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+button {
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    color: #023472;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #e0e0e0;
+}
